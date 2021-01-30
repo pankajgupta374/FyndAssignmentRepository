@@ -1,0 +1,112 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-30T13:15:34.106Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6763479300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.GoogleSearch.browserSetUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Google Search Functionality",
+        "description": "",
+        "id": "check-google-search-functionality;google-search-functionality;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 175529900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.GoogleSearch.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14868910500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user in on Google site",
+            "match": {
+              "location": "StepDefinition.GoogleSearch.user_in_on_google_site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3348049500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user search Cars in London",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cars in London",
+                  "offset": 12
+                }
+              ],
+              "location": "StepDefinition.GoogleSearch.user_search_cars_in_london(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15516734500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on Enter",
+            "match": {
+              "location": "StepDefinition.GoogleSearch.click_on_enter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6271289300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user validate number of gumtree links available in search result",
+            "match": {
+              "location": "StepDefinition.GoogleSearch.user_validate_how_many_gumtree_links_are_available()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 117847560200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user navigate to each gumtree link and validate title and NoOfresult",
+            "match": {
+              "location": "StepDefinition.GoogleSearch.user_navigate_to_each_gumtree_link_and_validate_title_and_NoOfresult()"
+            },
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "Check Google Search Functionality",
+    "description": "",
+    "id": "check-google-search-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/GoogleSearch.feature",
+    "tags": []
+  }
+]
