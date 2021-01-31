@@ -26,21 +26,5 @@ dryRun = false, monochrome = true)
 
 
 public class Runner {
-//	@SuppressWarnings("unchecked")
-//	@AfterClass
-//	public static void tearDown() {
-//		File reportOutputDirectory = new File("target/maven-cucumber-report");
-//		List jsonFiles = new ArrayList<>();
-//		jsonFiles.add("target/cucumber-report/cucumber-report.json");
-//		Configuration configuration = new Configuration(reportOutputDirectory, "Sample Test Project");
-//		configuration.setBuildNumber("011");
-//		configuration.addClassifications("Platform", "Windows");
-//		configuration.addClassifications("Browser", "Chrome");
-//		configuration.setSortingMethod(SortingMethod.NATURAL);
-//		configuration.addPresentationModes(PresentationMode.EXPAND_ALL_STEPS);
-//
-//		ReportBuilder reportBuilder = new ReportBuilder(jsonFiles, configuration);
-//		Reportable result = reportBuilder.generateReports();
-//		// and here validate 'result' to decide what to do if report has failed
-//	}
+	
 }
